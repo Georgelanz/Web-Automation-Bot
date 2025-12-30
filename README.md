@@ -1,2 +1,4 @@
 # Web-Automation-Bot
-🤖 Web-Automation-Bot: A bot that automates interactions with websites using tools like Selenium or Puppeteer. ⚙️ Can be used for testing, data scraping, or task automation. 🌐
+
+🤖 **Web-Automation-Bot**: A high-performance synthetic monitoring agent written in Rust.
+⚙️ Automates health checks and latency monitoring for internal microservices.
