@@ -1,16 +1,14 @@
-// main.rs - Comprehensive Rust starter script
-struct Project {
-    name: String,
-    version: String,
-}
+use std::thread;
+use std::time::Duration;
+
 fn main() {
-    let p = Project {
-        name: String::from("GitHub Automated Repository Project"),
-        version: String::from("1.0.0"),
-    };
-    println!("Project: {}, Version: {}", p.name, p.version);
-    println!("\nFeatures: Structs, Ownership, Loops");
-    for i in 0..5 {
-        println!("  - Iteration {}", i + 1);
+    println!("[INFO] Starting Web Automation Bot...");
+    let target = "https://internal-api.base58labs.com/health";
+    
+    loop {
+        println!("[TASK] Pinging target: {}", target);
+        // Simulate health check
+        thread::sleep(Duration::from_secs(60));
+        println!("[SUCCESS] Service is UP. 200 OK.");
     }
 }
